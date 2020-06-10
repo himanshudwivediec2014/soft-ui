@@ -14,7 +14,8 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     background-color: #dde1e7;
 }
@@ -216,4 +217,14 @@ body {
             border-top: 25px solid #303030;
         }
 
+@media only screen and (max-width: 625px) {
+    .title {
+        font-size: 70px;
+    }
+}
 
+@media only screen and (max-width: 449px) {
+    .title {
+        font-size: 50px;
+    }
+}
