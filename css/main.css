@@ -5,7 +5,7 @@ body {
     background-color: #ececec;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
     .title {
@@ -74,6 +74,7 @@ body {
             align-items: center;
             border: 2px solid #ececec;
             border-radius: 50%;
+            outline: none;
             cursor: pointer;
             font-size: 25px;
             text-decoration: none;
